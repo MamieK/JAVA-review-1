@@ -1,0 +1,10 @@
+public class reviewarray {
+    public static void main(String[] args) {
+        int my_array[] = {10, 100, 150, 50, 200, 250, 300, 350, 400, 450};
+        int sum = 0;
+
+        for (int i : my_array)
+            sum += i;
+        System.out.println("The sum is " + sum);
+    }
+}
